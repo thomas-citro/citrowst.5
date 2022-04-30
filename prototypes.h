@@ -1,0 +1,14 @@
+int checkBlocked(int, int);
+int parseArguments(int, char**);
+int getRandomInteger(int, int);
+void releaseResources(int, int);
+void runDeadlockRecoveryAlgorithm();
+void allocated(int, int);
+void cleanup();
+void signalHandlers();
+void incrementClock(struct time*, int, int);
+void runDeadlockDetectionAlgorithm();
+void releaseDeadlockResources(int, int);
+void printStatistics();
+void printUsageStatement();
+char *getOutputPerror();
