@@ -52,7 +52,7 @@ int main(int argc, char* argv[]) {
 	verbose = parseArguments(argc, argv);
 	fp = fopen("oss.log", "w");
 	
-	int maxChildren = 100;
+	int maxChildren = 40;
 	srand(time(NULL));
 	int numProcs = 0;	
 	
