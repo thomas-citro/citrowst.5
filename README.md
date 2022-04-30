@@ -1,6 +1,6 @@
 ## citrowst.5
 
-**Resource Management**
+**Resource Management (Project 5)**
 
 This project implements a resource management module for our Operating System Simulator oss. This project uses deadlock detection and recovery strategy to manage resources.
 
@@ -25,3 +25,6 @@ To cleanup run:
 ```
 make clean
 ```
+
+Version Control:
+https://github.com/thomas-citro/citrowst.5/
